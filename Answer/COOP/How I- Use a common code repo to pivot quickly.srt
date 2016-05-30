@@ -13,6 +13,7 @@ One is buzzr.io, one is fitguru.org,  and one is pickfeed.io.
 4
 00:00:12,240 --> 00:00:17,830
 And today I'm going to talk about how I use a common code  base to pivot to all these different ideas.
+今天我将讨论如何用一般代码基础去以所有不同的观点为中心转移。
 
 5
 00:00:17,830 --> 00:00:23,300
