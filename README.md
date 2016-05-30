@@ -4,16 +4,16 @@
 访问[考试内容仓库](https://github.com/Linux101/C2016_exam)
 ，然后将仓库 fork 到 GitHub 个人账户下。克隆 fork 后的仓库进行答题。
 
-Access the [repository of examination - URL: https://github.com/Linux101/C2016_exam](https://github.com/Linux101/C2016_exam), fork the repository to your GitHub account. Clone the forked repository to answer the question.
+Access the [repository of examination - URL: https://github.com/Linux101/C2016_exam](https://github.com/Linux101/C2016_exam), fork the repository to your GitHub account. Clone the forked repository, starting the examination.
 
 考试内容分为以下题目 / Content of examination including following questions：
  + [Linux 设置 / Setting of Linux](Question/Q1_Linux/README.md)
  + [Linux 下 C 编程 / C programming on Linux](Question/Q2_C/README.md)
  + [协作式翻译 / Translating by cooperating ](Question/Q3_Translate/README.md)
 
-需要为每个题目都新建一个分支，在新分支下完成答题。答题完成后将答案提交回个人仓库，并将每个答案分支都提交 PR(Pull request)回[考试内容仓库](https://github.com/Linux101/C2016_exam)。
+**注**：需要为每个题目都新建一个分支，在新分支下完成答题。答题完成后将答案提交回个人仓库，并将每个答案分支都提交 PR(Pull request)回[考试内容仓库](https://github.com/Linux101/C2016_exam)。
 
-Your MUST new a branch for every question, and answer the question at the branch. After committing the answer to the forked repository, do a PR(Pull request) the branch to the original examination repository.
+**Note**: Your **MUST** answer every question in a **new branch**. After committing the answer to the forked repository, do **PR(Pull request)** the branch to the original examination repository.
 
 ## 批改过程
 阅卷老师审阅每一个PR，评分之后合并至考试内容仓库，则该答案永久存档。
