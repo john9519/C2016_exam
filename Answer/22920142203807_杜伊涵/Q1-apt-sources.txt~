@@ -1,0 +1,9 @@
+Q1：解释 sources.list 和 其它扩展名为 .list 的文件的区别，以及为什么要分为多个文件？
+
+/etc/apt/sources.list
+保存了ubuntu软件更新的源服务器的地址,一般源信息都存在这个文件中。
+
+/etc/apt/sources.list.d/*.list
+sources.list.d目录下的*.list文件通常用来保存第三方软件的源地址，为在单独文件中写入源的地址提供了一种方式。这些第三方软件源通过sudo add-apt-repository命令安装。
+
+两者都保存了源地址，但是前者通常保存的是一般源信息，后者通常保存第三方软件源。如果没有多个文件，所有的源都放在一个文件里面，修改和管理源将会变得很麻烦。在目录/etc/apt/sources.list.d/下，可以根据不同的第三方软件新建.list文件存放它的源。比如google chrome的源就放在了/etc/apt/sources.list.d/google-chrome.list文件中。这样一来，安装和管理第三方软件的时候就可以清楚地知道它的源。这种方式提高了Ubuntu系统源管理的效率。
