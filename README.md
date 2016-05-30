@@ -7,7 +7,7 @@
 Access the [repository of examination - URL: https://github.com/Linux101/C2016_exam](https://github.com/Linux101/C2016_exam), fork the repository to your GitHub account. Clone the forked repository, starting the examination.
 
 考试内容分为以下题目 / Content of examination including following questions：
- + [Linux 设置 / Setting of Linux](Question/Q1_Linux/README.md)
+ + [Ubuntu Apt 源配置 / Setting of Ubuntu apt sources.list ](Question/Q1_Linux_Apt_Sources/README.md)
  + [Linux 下 C 编程 / C programming on Linux](Question/Q2_C/README.md)
  + [协作式翻译 / Translating by cooperating ](Question/Q3_Translate/README.md)
 
