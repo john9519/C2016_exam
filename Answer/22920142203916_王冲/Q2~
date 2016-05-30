@@ -1,4 +1,0 @@
-第一步：
-    sudo apt-get install nautilus-open-term
-第二步：
-    chmod +x nautilus-open-term
