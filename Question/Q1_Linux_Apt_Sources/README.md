@@ -1,7 +1,7 @@
 # Q1 软件源配置 / Apt Sources（8分）
 
 ## 背景 / Background
-不论是 RedHat 还是 Debian / Ubuntu, 现代的 Linux 都使用包管理器进行软件的维护工作。包管理器中最重要的配置就是软件源，用于控制包管理器从哪些服务器获取软件包的信息。
+不论是 RedHat 还是 Debian / Ubuntu，现代的 Linux 都使用包管理器进行软件的维护工作。包管理器中最重要的配置就是软件源，用于控制包管理器从哪些服务器获取软件包的信息。
 
 Debian / Ubuntu 操作系统的软件源保存在 `/etc/apt/sources.list` 文件以及 `/etc/apt/sources.list.d` 目录下扩展名为 `.list` 的文件中。
 
