@@ -17,6 +17,7 @@ And today I'm going to talk about how I use a common code  base to pivot to all 
 5
 00:00:17,830 --> 00:00:23,300
 While working on different startup ideas,  I quickly realized there are common parts to each idea.
+当在研究不同的创业主意时，我很快发现了每个主意都有共同的地方。
 
 6
 00:00:23,300 --> 00:00:29,320
