@@ -1,0 +1,8 @@
+第一步：sudo apt-get update
+	更新
+第二步：apt-cache search nautilus
+	查找nautilus相关的软件包，返回列出了一堆软件包，其中有一个
+	“nautilus-open-terminal - 一个 nautilus 插件，用于在任意目录中打开终端”
+	就是我们要找的
+第三步：sudo apt-get install nautilus-open-terminal
+	安装该软件包
