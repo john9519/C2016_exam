@@ -1,0 +1,5 @@
+1.aptitude search nautilus
+   找到一个插件：nautilus-open-terminal 满足要求
+2.sudo apt-get install  nautilus-open-terminal
+3.sudo apt-get update
+
