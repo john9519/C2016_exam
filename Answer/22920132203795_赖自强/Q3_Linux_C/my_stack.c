@@ -27,14 +27,8 @@ void stack_push(int x)
 
 int stack_pop()
 {
-	if(stack.head<0)
-	{	printf("stack is empty");
-		return -1;
-	}
-	else{
-		return stack.buf[stack.head];
 		stack.head--;
-	}
+		return stack.buf[stack.head];
 }
 
 int stack_size()
