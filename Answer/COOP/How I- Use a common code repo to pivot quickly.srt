@@ -29,6 +29,7 @@ The five features are a landing page with an email sign up so  you can go online
 8
 00:00:52,720 --> 00:00:57,560
 And the fifth thing would be a login authentication scheme  with Twitter, Facebook, G+, or email.
+[看不懂]  And the fifth thing would be a login authentication scheme  with Twitter, Facebook, G+, or email. 不会翻译.
 
 9
 00:00:57,560 --> 00:01:02,550
