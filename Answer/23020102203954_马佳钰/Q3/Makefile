@@ -6,4 +6,4 @@ main:main.o my_stack.o
  	gcc -c my_stack.c
  
  clean:
- 	rm  *.o
+ 	rm   main  *.o
