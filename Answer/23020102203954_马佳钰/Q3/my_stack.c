@@ -49,7 +49,7 @@ int stack_is_full()
 void stack_push(int x)
 {
       if(!stack_is_full())
-         s[top++]=x;
+         s.top++=x;
       else 
          return error;
 }
@@ -58,7 +58,7 @@ int stack_pop()
 
        int e;
        if(!stack_is_empty())
-          e=s[--top];
+          e=--s.top;
           return e;
        else
           return error;
