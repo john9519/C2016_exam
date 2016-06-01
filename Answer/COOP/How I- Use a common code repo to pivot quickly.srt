@@ -90,6 +90,7 @@ So here we have Twitter activated.
 23
 00:02:19,426 --> 00:02:27,857
 And then we log back in.
+然后我们登录了
 
 24
 00:02:27,857 --> 00:02:30,440
