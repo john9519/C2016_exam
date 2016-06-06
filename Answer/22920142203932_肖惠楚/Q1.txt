@@ -1,4 +1,4 @@
-    sources.list��һ����ͨ�ɱ༭���ı��ļ���������ubuntu�������µ�Դ�������ĵ�ַ��Ŀ¼��/etc/apt/sources.list
-    *.list�ļ�Ҳ����ͨ�ɱ༭���ı��ļ�����Ϊ�ڵ����ļ���д��Դ�ĵ�ַ�ṩ��һ�ַ�ʽ��ͨ��������װ������������������ͨ��sudo add-apt-repository���װ�ĵ�����Դ��Ŀ¼��/etc/apt/sources.list.d/*.list
-    һ�����ϢԴ������sources.list�ļ��У���̫����ļ�Դ����ͬһ���ļ��л���һЩ���ң����Ǿ͵�����sources.list.d�ļ������ڴ�ŵ�����Դ��ַ��
+    sources.list是一个普通可编辑的文本文件，保存了ubuntu软件更新的源服务器的地址。目录：/etc/apt/sources.list
+    *.list文件也是普通可编辑的文本文件，其为在单独文件中写入源的地址提供了一种方式，通常用来安装第三方的软件。它是通过sudo add-apt-repository命令安装的第三方源。目录：/etc/apt/sources.list.d/*.list
+    一般的信息源都存在sources.list文件中，但太多的文件源放在同一个文件中会有一些混乱，于是就诞生了sources.list.d文件夹用于存放第三方源地址。
 
