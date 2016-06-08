@@ -1,0 +1,45 @@
+#include <stdio.h>
+int n=0;
+int s[10];
+void stack_push(int x)
+{ 
+     s[n]=x;
+     n++;
+}
+int stack_pop()
+{
+     n--;
+     return s[n];
+}
+
+// The capacity of the stack
+int stack_capacity()
+{
+     return n-1;
+}
+
+// Current available size of the stack
+int stack_size()
+{
+     return 10;
+}
+
+/*
+ * return 0/1 to check if stack is empty or full
+ * 0 - No
+ * 1 - Yes
+ */
+int stack_is_empty()
+{
+       if(n==0)
+          return 1;
+       else
+          return 0;
+}
+int stack_is_full()
+{
+       if(n==10)
+          return 1;
+       else
+          return 0;
+}
