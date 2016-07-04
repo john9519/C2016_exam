@@ -1,0 +1,2 @@
+第一步：sudo apt-cache search nautilus
+第二步： sudo apt-get install nautilus
