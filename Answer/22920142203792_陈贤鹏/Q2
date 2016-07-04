@@ -1,0 +1,5 @@
+
+第一步：sudo apt-get install aptitude
+第二步：aptitude search nautilus terminal //之后出现一个列表，选择所需软件安装nautilus-open-terminal
+第三步：aptitude install nautilus-open-terminal
+第四步：apt-get update
