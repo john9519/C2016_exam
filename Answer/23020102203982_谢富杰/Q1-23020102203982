@@ -1,4 +1,0 @@
-1 作用
-文件/etc/apt/sources.list是一个普通可编辑的文本文件，保存了ubuntu软件更新的源服务器的地址。
-2 区别
-sources.list.d目录下的*.list文件为在单独文件中写入源的地址提供了一种方式，通常用来安装第三方的软件。一般是通过sudo add-apt-repository命令安装的第三方源。之所以分了很多了list文件，是因为不同的第三方源放置在不同的list中，方便管理。
